@@ -35,7 +35,6 @@ int main()
     myBasket.addItem(smallTv);
 
     myBasket.printItems();
-    cout << "Total price:\t" << myBasket.getTotalPrice() << endl;
 
     return 0;
 }

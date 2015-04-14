@@ -30,4 +30,6 @@ void Basket::printItems() {
     for(int i = 0; i < (int)items.size(); i++) {
         cout << (i+1) << ". " << items[i]->getName() << "\t" << items[i]->getPrice() << " € \t" << items[i]->getThirdParam() << endl;
     }
+    cout << endl << "In basket are: " << size() << " items." << endl;
+    cout << "For all items you need to pay: " << getTotalPrice() << " €" << endl;
 }
